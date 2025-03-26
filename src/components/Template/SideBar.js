@@ -9,12 +9,12 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Evelyn Yixuan Liu</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:yliu357@buffalo.edu">yliu357@buffalo.edu</a>
         </p>
       </header>
     </section>
@@ -22,33 +22,19 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Evelyn Yixuan (IPA:[i˥˩ɕyɛn˧˥]) Liu. I am currently pursuing a{' '}
+        <a href="https://arts-sciences.buffalo.edu/linguistics/undergraduate/linguistics-degrees/computational-linguistics-ba.html">MS in Computational Linguistics at University at Buffalo.</a>{' '}
+        Additionally, I am a member of <a href="https://www.acsu.buffalo.edu/~cxjacobs/index/CaLiCo_Lab.html">CaLiCo Lab</a> founded by Dr. Cassandra Jacobs.
+        My research interests lie at the intersection of large language models (LLMs)
+        and phonetic analysis, where I explore the nuances of human language,
+        speech processing, and AI-driven linguistic models.
       </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
-        </li>
-      </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        Template from &copy; <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noopener noreferrer">Michael D&apos;Angelo</a> | Designed by Evelyn Yixuan Liu
       </p>
     </section>
   </section>

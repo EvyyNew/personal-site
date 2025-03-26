@@ -6,34 +6,18 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Evelyn Yixuan Liu's personal website. Computational Linguist, "
+      + 'UB & NNU Alumni.'
     }
   >
     <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2>
-            <Link to="/">About this site</Link>
-          </h2>
-          <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
-          </p>
-        </div>
-      </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
+        Welcome to my website! Glad you are here! Please feel free to explore more{' '}
         <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
-      </p>
-      <p>
-        {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        <Link to="/resume">resume</Link> to see my educational and professional experience, browse through my <Link to="/projects">projects</Link>,{' '}
+        . If you would like to get in touch, you can always{' '}
+        <Link to="/contact">contact</Link> me. I would love to hear from you and connect!
       </p>
     </article>
   </Main>
