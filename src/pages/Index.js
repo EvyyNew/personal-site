@@ -15,7 +15,7 @@ const Index = () => (
         {' '}
         Welcome to my website! Glad you are here! Please feel free to explore more{' '}
         <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link> to see my educational and professional experience, browse through my <Link to="/projects">projects</Link>,{' '}
+        <Link to="/resume">resume</Link> to see my educational and professional experience, browse through my <Link to="/projects">projects</Link>{' '}
         . If you would like to get in touch, you can always{' '}
         <Link to="/contact">contact</Link> me. I would love to hear from you and connect!
       </p>
