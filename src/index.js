@@ -1,14 +1,11 @@
 import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
 import App from './App';
 
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (
   <React.StrictMode>
-    <HashRouter basename="/personal-site">
-      <App />
-    </HashRouter>
+    <App />
   </React.StrictMode>
 );
 
