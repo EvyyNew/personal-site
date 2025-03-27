@@ -8,8 +8,8 @@ const data = [
     desc:
       'Comprehensive understanding of Uli sound system and phonological processes. '
       + 'Consonants and vowels, '
-      + 'suprasegmentals (Tone),'
-      + 'vowel classification with K-means.',
+      + 'suprasegmentals (tone),'
+      + 'and vowel classification with K-means.',
   },
   {
     title: 'Wiki Retreival Chatbot',
@@ -19,7 +19,7 @@ const data = [
     desc:
       'An end-to-end IR chatbot designed for both chit-chat and topic-based question answering. '
       + 'Indexing, retrieval, and interactive conversation systems, '
-      + 'processing user queries to classify topics, retrieve top-ranked documents using BM25, and summarize content.',
+      + 'processing user queries to classify topics, retrieving top-ranked documents using BM25, and summarizing content.',
   },
 ];
 
