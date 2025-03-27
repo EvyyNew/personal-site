@@ -5,7 +5,7 @@ import App from './App';
 
 const StrictApp = () => (
   <React.StrictMode>
-    <HashRouter basename="/">
+    <HashRouter basename="/personal-site">
       <App />
     </HashRouter>
   </React.StrictMode>
