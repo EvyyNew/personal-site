@@ -1,5 +1,5 @@
 # Intro
-Hi, I'm Evelyn Yixuan (IPA: [i˥˩ɕyɛn˧˥]) Liu . I am currently an MS student in Computational Linguistics at the University at Buffalo, actively seeking full-time linguist or language specialist positions in the U.S. My research interests lie at the intersection of large language models (LLMs) and phonetic analysis, where I explore the nuances of human language, speech processing, and AI-driven linguistic models.
+Hi, I'm Evelyn Yixuan (IPA: [i˥˩ɕyɛn˧˥]) Liu . I'm a recent graduate of MS in Computational Linguistics at the University at Buffalo, actively seeking full-time linguist or language specialist positions in the U.S. My research interests lie at the intersection of large language models (LLMs) and phonetic analysis, where I explore the nuances of human language, speech processing, and AI-driven linguistic models.
 
 # I Like
 
