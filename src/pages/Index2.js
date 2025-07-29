@@ -26,6 +26,7 @@ const Index = () => {
         description: 'As someone who values cross-cultural communication, I enjoy creating localization strategies that make global products feel native and intuitive to diverse users.',
       },
     ],
+
     coreExpertise: [
       {
         skill: 'AI Fine-tuning',
@@ -44,6 +45,7 @@ const Index = () => {
         description: 'I\'m deeply interested in NLP and have worked extensively on text analysis, model development, and language-centric AI tools.',
       },
     ],
+
     employmentStatus: {
       visaStatus: 'Requires work visa sponsorship',
       positionType: 'Open to both internship and full-time opportunities',
@@ -59,7 +61,13 @@ const Index = () => {
     >
       <article className="post" id="index">
         <p>
-          Update: Ask my assistant:  <a href="https://evebot-fawn.vercel.app" target="_blank" rel="noopener noreferrer"><strong>EvelynBot</strong></a> about my career goals and experiences.
+          Update: Ask my assistant:{' '}
+          <a href="https://evebot-fawn.vercel.app" target="_blank" rel="noopener noreferrer">
+            <strong>EvelynBot</strong>
+          </a>{' '}
+          about my career goals and experiences.
+        </p>
+        <p>
           {' '}
           Welcome to my website! Glad you are here! Please feel free to explore more{' '}
           <Link to="/about">about me</Link>, or you can check out my{' '}
