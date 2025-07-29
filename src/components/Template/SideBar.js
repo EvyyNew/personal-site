@@ -39,6 +39,20 @@ const SideBar = () => (
         speech processing, and AI-driven linguistic models.
       </p>
     </section>
+    <section id="footer">
+      <ContactIcons />
+      <p className="copyright">
+        Template from &copy;{' '}
+        <a
+          href="https://github.com/mldangelo/personal-site"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Michael D&apos;Angelo
+        </a>{' '}
+        | Designed by Evelyn Yixuan Liu
+      </p>
+    </section>
   </section>
 );
 
